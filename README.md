@@ -1,2 +1,2 @@
 # Kotlin
-It is a Kotlin repository with many examples and practices
+It's a Kotlin repository with many examples and practices
