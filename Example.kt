@@ -16,10 +16,18 @@ fun main(args: Array<String>) {
     // APPROVED OR REPROVED
     var score1 = 2
     var score2 = 3
-	var score3 = 9
+    var score3 = 9
     var average = (score1 + score2 + score3) / 3
     if(average > 7)
     	println("Approved")
-	else
+    else
     	println("Reproved")
+
+    // DIGIT COUNTER
+    val number = 54
+    val message = "Number has"
+    if(number <10)
+    	println("$message 1 digit")
+    else
+    	println("$message more than 1 digit")
 }
