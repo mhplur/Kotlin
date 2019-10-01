@@ -14,12 +14,12 @@ fun getAreaAndPerimeter(side : Int){
 
 fun getAverageWeight(arrayWeights : FloatArray){
     arrayWeights.sum()
-    val average = (arrayWeights.sum()) / 3
+    val average = (arrayWeights.sum()) / arrayWeights.size
     println("The average of three weights is $average")
 }
 
 fun getApprovedOrReproved(arrayScores : IntArray){
-    val average = (arrayScores.sum()) / 3
+    val average = (arrayScores.sum()) / arrayScores.size
     print("The student is ")
     if(average > 7)
     	println("Approved")
